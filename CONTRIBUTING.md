@@ -44,6 +44,8 @@ With your help, we can create a comprehensive reference tool that will help mill
   - [Squash and Merge](#squash-and-merge)
   - [Filtering PRs](#filtering-prs)
   - [Templates](#templates)
+    - [Thank you](#thank-you)
+    - [Thank you and congrats](#thank-you-and-congrats)
     - [Build Error](#build-error)
     - [Syncing Fork](#syncing-fork)
     - [Merge Conflicts](#merge-conflicts)
@@ -114,10 +116,9 @@ This will grab all the changes on the official `master` branch without making an
 
 ### Running Locally
 
-```bash
-# make sure to have yarn installed
-npm install -g yarn
+Make sure to have yarn installed (follow these [instructions](https://yarnpkg.com/en/docs/install) if needed).
 
+```bash
 # fork repo
 
 # clone down your repo
@@ -234,7 +235,7 @@ However, you can include special characters in the article title.
 
 Here are some examples of properly named titles:
 
-> [`src/pages/html/tables/index.html`](https://github.com/freeCodeCamp/guides/blob/master/src/pages/html/tables/index.md)
+> [`src/pages/html/tables/index.md`](https://github.com/freeCodeCamp/guides/blob/master/src/pages/html/tables/index.md)
 
 ```markdown
 ---
@@ -518,6 +519,24 @@ We use the <kcd>Squash and merge</kcd> option when merging the PR which keeps th
 ## Templates
 
 > You can make your own with GitHub's built in [**Saved replies**](https://github.com/settings/replies/) feature or use the ones below.
+
+### Thank you
+
+```markdown
+Thank you for your contribution to the page! 👍
+We're happy to accept these changes, and look forward to future contributions. 🎉
+```
+
+### Thank you and congrats
+
+> For thanking and encouraging first-time contributors.
+
+```markdown
+Hi @username. Congrats on your first pull request (PR)! 🎉
+
+Thank you for your contribution to the page! 👍
+We're happy to accept these changes, and look forward to future contributions. 📝
+```
 
 ### Build Error
 
